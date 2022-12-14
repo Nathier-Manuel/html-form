@@ -1,0 +1,27 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label, input {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    letter-spacing: 0.9px;
+}
+
+input::placeholder {
+    font-size: 10px;
+}
+
+input[type=submit] {
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(87, 62, 249);
+    color: aliceblue;
+    padding: 6px 12px;
+}
+
+input[type=submit]:hover {
+    background: rgb(125, 106, 247);
+}
